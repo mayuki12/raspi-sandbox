@@ -1,4 +1,4 @@
-# Raspberry Pi OS LITEのインストール
+# Raspberry Pi の初期設定
 
 ## 準備するもの
 - [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
