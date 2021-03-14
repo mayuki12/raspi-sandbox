@@ -48,3 +48,9 @@ pi@raspberrypi.local's password: <パスワード入力>
 ```
 pi@raspberrypi:~ $ passwd
 ```
+
+SSH の公開鍵を登録する
+- `ssh-keygen -t rsa -b 4096 -f raspi`
+  - 生成されたファイルを `~/.ssh/` に移動する
+- `raspi.pub` を Rasberry Pi の `~/.ssh/authorized_keys` に設置する
+- `ssh -i ~/.ssh/raspi  pi@raspberrypi` でRasberry Piに接続できる事を確認する
